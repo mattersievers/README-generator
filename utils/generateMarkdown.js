@@ -21,6 +21,8 @@ function generateMarkdown(data) {
   * [Use](#use)
   * [Licenses](#licenses)
   * [Contributors](#contributors)
+  * [Tests](#tests)
+  * [Questions](#questions)
 
   ## Description
   ${data.projectDescription}
@@ -39,6 +41,12 @@ function generateMarkdown(data) {
   
   ## Contributors
   ${data.projectContribute}
+
+  ## Tests
+  ${data.projectTests}
+  
+  ## Questions
+  ${data.projectQuestions}
 
 `;
 }

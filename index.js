@@ -21,7 +21,7 @@ const questions = [
     {
         type: 'input',
         name: 'projectDescription',
-        message: 'Please provide a description of what your project does. (Required)',
+        message: 'Please provide a description of what why and how your project does. (Required)',
         validate: descInput => {
             if (descInput) {
                 return true;    
@@ -59,15 +59,26 @@ const questions = [
         }
     },
     {
-        type: 'input',
+        type: 'list',
         name:'projectLicense',
-        message: 'Please list any licenses.'
+        message: 'Please select the licenses for the project.',
+        choices: ['licensetype1', 'licensetype2']
     },
     {
         type: 'input',
         name: 'projectContribute',
         message: 'Please list any contributors.'
     },
+    {
+        type: 'input',
+        name: 'projectTests',
+        message: 'Put in your project tests.'
+    },
+    {
+        type: 'input',
+        name: 'projectQuestions',
+        message: 'Put in them questions.'
+    }
 ];
 
 // TODO: Create a function to write README file
