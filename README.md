@@ -19,10 +19,11 @@
   This progam implements Node.js to generate a README file in markdown format.
 
   ## Install
-  Ensure you have the latest Node.js installed. Run the command "npm install" in the command line of your terminal to install the appropriate packages. Use the command "node index" to initialize the README creation process.
+  Ensure you have the latest Node.js installed. Run the command "npm init" and "npm install inquirer" in the command line of your terminal to install the appropriate packages. Use the command "node index" to initialize the README creation process.
   
   ## Use
   Use the command "node index" and answer the following prompts to generate a README that will be titled after the name of the project and stored in the dist folder.
+  - <iframe src="https://drive.google.com/file/d/1q8l9dd44g7OV4RJCQl_93L7v8WhP6Zq9/preview" width="640" height="480"></iframe>
   
   ## License
   No license.
