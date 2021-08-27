@@ -23,10 +23,8 @@
   
   ## Use
   Use the command "node index" and answer the following prompts to generate a README that will be titled after the name of the project and stored in the dist folder.
-  [![Demo screenshot](./assets/images/Demo_Screenshot.jpg)]({https://drive.google.com/file/d/1q8l9dd44g7OV4RJCQl_93L7v8WhP6Zq9/preview} "Demo Video")
-  <figure class="video_container">
-  <iframe src="" frameborder="0" allowfullscreen="true"> </iframe>
-  </figure>
+  [![Demo screenshot](./assets/images/Demo_Screenshot.jpg)](https://drive.google.com/file/d/1q8l9dd44g7OV4RJCQl_93L7v8WhP6Zq9/preview "Demo Video")
+  
   
   ## License
   No license.
