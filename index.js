@@ -61,23 +61,44 @@ const questions = [
     {
         type: 'list',
         name:'projectLicense',
-        message: 'Please select the licenses for the project.',
-        choices: ['licensetype1', 'licensetype2']
+        message: 'Please select the appropriate license for the project.',
+        choices: ['Apache 2.0','GNU GPLv3', 'ISC', 'MIT','None']
     },
     {
         type: 'input',
         name: 'projectContribute',
-        message: 'Please list any contributors.'
+        message: 'Please explain any guidelines for contributors.'
     },
     {
         type: 'input',
         name: 'projectTests',
-        message: 'Put in your project tests.'
+        message: 'PLease specify testing instructions.'
     },
     {
         type: 'input',
-        name: 'projectQuestions',
-        message: 'Put in them questions.'
+        name: 'projectGithub',
+        message: 'Please enter your Github username.',
+        validate: projectGithubInput => {
+            if (projectGithubInput) {
+                return true;    
+            } else{
+                console.log('Please enter your Github username!');
+                return false;
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'projectEmail',
+        message: 'Please enter your email address.',
+        validate: projectEmailInput => {
+            if (projectEmailInput) {
+                return true;    
+            } else{
+                console.log('Please enter your email!');
+                return false;
+            }
+        }
     }
 ];
 
