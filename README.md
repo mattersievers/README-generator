@@ -16,7 +16,7 @@
   This program prompts the user with questions, takes information input by the user, and processes it into a README in markdown format.
 
   ## Information
-  This progam implements Node.js to generate a README file in markdown format.
+  This program implements Node.js to generate a README file in markdown format.
 
   ## Install
   Ensure you have the latest Node.js installed. Run the command "npm init" and "npm install inquirer" in the command line of your terminal to install the appropriate packages. Use the command "node index" to initialize the README creation process.
