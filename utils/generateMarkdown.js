@@ -60,7 +60,6 @@ function generateMarkdown(data) {
 
   ## Table of Contents
   * [Description](#description)
-  * [Information](#information)
   * [Install](#install)
   * [Use](#use)
   * [License](#license)
@@ -70,9 +69,6 @@ function generateMarkdown(data) {
 
   ## Description
   ${data.projectDescription}
-
-  ## Information
-  ${data.projectInfo}
 
   ## Install
   ${data.projectInstall}
