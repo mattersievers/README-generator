@@ -86,8 +86,8 @@ function generateMarkdown(data) {
   ${data.projectTests}
   
   ## Questions
-  - [Github for ${data.projectGithub}](http://www.github.com/${data.projectGithub})
-  - For further questions, contact me through email at ${data.projectGithub,data.projectEmail}
+  - [Github for mattersievers](http://www.github.com/mattersievers)
+  - For further questions, contact me through email at mattersievers@gmail.com
 
 `;
 }

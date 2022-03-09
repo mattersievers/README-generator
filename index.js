@@ -73,32 +73,6 @@ const questions = [
         type: 'input',
         name: 'projectTests',
         message: 'PLease specify testing instructions.'
-    },
-    {
-        type: 'input',
-        name: 'projectGithub',
-        message: 'Please enter your Github username.',
-        validate: projectGithubInput => {
-            if (projectGithubInput) {
-                return true;    
-            } else{
-                console.log('Please enter your Github username!');
-                return false;
-            }
-        }
-    },
-    {
-        type: 'input',
-        name: 'projectEmail',
-        message: 'Please enter your email address.',
-        validate: projectEmailInput => {
-            if (projectEmailInput) {
-                return true;    
-            } else{
-                console.log('Please enter your email!');
-                return false;
-            }
-        }
     }
 ];
 
